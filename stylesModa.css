@@ -1,0 +1,518 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+@media only screen and (max-width: 414px) {
+
+  header {
+    font-size: 32%;
+  }
+
+  .nav {
+    font-size: 85%;
+  }
+
+}
+
+@media only screen and (max-width: 375px) {
+
+  header {
+    font-size: 32%;
+  }
+
+  .nav {
+    font-size: 80%;
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+  header {
+    font-size: 20%;
+  }
+
+  .nav {
+    font-size: 30%;
+  }
+
+}
+
+@media only screen and (max-width: 870px) {
+
+  header {
+    font-size: 39%;
+  }
+
+  .nav {
+    font-size: 80%;
+  }
+
+
+}
+
+/* Codigo para el nuevo NAVBAR*/
+
+.nav-link {
+  font-size: 125%;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 170%;
+  transition: transform 0.5s ease;
+
+}
+
+/*esta parte no funciona */
+
+@media (min-width: 1200px) {
+
+  .living {
+    flex-direction: column;
+  }
+
+  .contliv7 {
+    font-size: 30%;
+  }
+
+}
+
+
+header {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contenedor1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 100%;
+}
+
+.text1 a h1 {
+  display: flex;
+  font-size: 700%;
+  justify-content: flex-start;
+  font-family: 'Bebas Neue', cursive;
+  text-decoration: none;
+}
+
+.text1 a h1 {
+  text-decoration: none;
+  color: black;
+}
+
+.text2 {
+  display: flex;
+  align-items: flex-end;
+  font-size: 125%;
+  font-family: 'Bebas Neue', cursive;
+  padding-bottom: 2%;
+}
+
+/* codigo para moda.html  */
+body {
+
+  margin: 0;
+  padding: 0rem 0rem;
+}
+
+.grid {
+  width: 100%;
+  /*estaba en 80%*/
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.card {
+
+  padding: 8rem 4rem;
+
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  height: 25rem;
+}
+
+
+.a1 {
+  background-image: url(img/Amarillo1.jpg);
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.5s ease;
+}
+
+.a1:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.a2 {
+  background-image: url(img/amarillo3.jpg);
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.5s ease;
+}
+
+.a2:hover:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.a3 {
+  background-image: url(img/amarillo4.jpg);
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.5s ease;
+}
+
+.a3:hover:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.a6 {
+  background-image: url(img/amarillo5.jpg);
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.5s ease;
+}
+
+.a6:hover:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.a4 {
+  background-image: url(img/amarillo7.jpg);
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.5s ease;
+}
+
+.a4:hover:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.a5 {
+  background-image: url(img/yello2.jpg);
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.5s ease;
+}
+
+.a5:hover:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.grid {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 25rem), 1fr));
+}
+
+ /* Make the image fully responsive */
+ .carousel-inner  {
+
+  width: 50%;
+  height: 80vh;
+  
+}
+
+/* codigo para belleza.html */
+
+.belleimg {
+  background-image: url(img/IMG_1949_2_ret.jpg.webp);
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: 25rem;
+  margin-top: 3.5rem;
+  margin-bottom: 0rem;
+}
+
+.belleimg p {display: flex;
+  font-size: 300%;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  padding: 6rem;
+  text-decoration: none;}
+
+.containerBelleza {
+  min-height: 100vh;
+  display: flex;
+  display: inline-block;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+ /* margin-left: 3rem;*/
+
+ padding-bottom: 5rem;
+  
+}
+
+.containerBelleza .cardbell {
+  position: relative;
+  width: 300px;
+  height: 750px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  margin: 30px;
+  border-radius: 10px;
+  overflow: hidden;
+   
+
+}
+
+.containerBelleza .cardbell .imgBox img {
+
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.containerBelleza .cardbell .contentBox {
+  bottom: 0;
+  padding: 20px;
+  text-align: center;
+
+}
+.containerBelleza .cardbell .contentBox p {
+  text-align: center;
+  padding: 10px 0 20px 0;
+
+}
+.containerBelleza .cardbell .contentBox a {
+text-decoration: none;
+display: inline-block;
+color: #111;
+border: 1px solid;
+padding: 5px 15px;
+border-radius: 5px;
+transition: 0.3s;
+
+
+}
+.containerBelleza .cardbell .contentBox a:hover:hover {
+  background-color: #007bff;
+  color: white;
+  border: 1px solid black;
+}
+/* cogido para living.html */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  padding: 20px;
+  grid-gap: 20px;
+  padding-top: 3rem;
+}
+
+.cardliv {
+  background-color: #ffffff;
+ 
+}
+
+.container {
+  position: relative;
+
+}
+
+img {
+  width: 100%;
+  display: block;
+  border-radius: 10px 10px 0 0;
+}
+
+.details {
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.details h3 {
+  color: #000000;
+  font-weight: 600;
+
+  margin: 5px 0 15px 0;
+  font-size: 1.3rem;
+  font-family: DomaineDisplay, Georgia, sans-serif;
+  font-style: italic;
+  text-align: center;
+  
+
+}
+
+.details p {
+  color: #000000;
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: DomaineDisplay, Georgia, sans-serif;
+  font-style: italic;
+}
+
+/* codigo para el index.html */
+.mainimg {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.mainimg1 {
+  background-image: url(img/banermoda.jpg);
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: 25em;
+}
+
+.mainimg1 p a {
+  display: flex;
+  font-size: 700%;
+  justify-content: center;
+  align-content: stretch;
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  padding: 7rem;
+  text-decoration: none;
+}
+
+.mainimg2 {
+  margin-top: 2rem;
+  background-image: url(img/banerliving2.jpg);
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: 25em;
+}
+
+.mainimg2 p a {
+  display: flex;
+  font-size: 700%;
+  justify-content: center;
+  align-content: stretch;
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  padding: 7rem;
+  text-decoration: none;
+}
+
+.mainimg3 {
+  margin-top: 2rem;
+  background-image: url(img/publicadad2Bell.jpg);
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: 25em;
+}
+
+.mainimg3 p a {
+  display: flex;
+  font-size: 700%;
+  justify-content: center;
+  align-content: stretch;
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  padding: 7rem;
+  text-decoration: none;
+}
+
+.mainimg4 {
+  margin-top: 2rem;
+  background-image: url(img/bannerdesfile.jpg);
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: 25em;
+}
+
+.mainimg4 p a {
+  display: flex;
+  font-size: 700%;
+  justify-content: center;
+  align-content: stretch;
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  padding: 7rem;
+  text-decoration: none;
+}
+
+/* codigo footer */
+
+footer {
+  background-color: black;
+  display: flex;
+  height: 200px;
+
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%; 
+  height: 100%;
+  ;
+}
+
+.contenedortxt1 a {
+  background-color: black;
+  display: flex;
+  font-family: 'Bebas Neue', cursive;
+  display: flex;
+  text-decoration: none;
+  font-size: 400%;
+  color: white;
+  margin-left: 1%;
+
+}
+
+.listafooter {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  height: 100%;
+  align-items: flex-end;
+  
+
+}
+
+.listafooter ul {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  padding-bottom: 1%;
+
+ 
+}
+
+.textfoot {
+  display: flex;
+  font-family: 'Bebas Neue', cursive;
+  display: flex;
+  color: white;
+  align-items: flex-end;
+  margin-left: 1.5%;
+  font-size: 170%;
+  width: 100%;
+  ;
+}
+
+.textfoot a {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  text-transform: none;
+}
